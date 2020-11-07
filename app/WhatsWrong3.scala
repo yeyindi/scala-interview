@@ -15,6 +15,8 @@ class WhatsWrong3 extends Actor {
 
   var internalState = "internal state"
 
+  /* We need to handle cases when it's not a query*/
+  /* We just need to add a default case to handle it*/
   def receive: Receive = {
     case "a query" => {
       val requestF: Future[String] = queryAsyncServer()

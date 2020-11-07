@@ -1,12 +1,33 @@
 
 1) Explain REST and RESTful
 
+REST (Representational State Transfer) is a model of architecture to create a web service or web API
+RESTful is an implementation of the model REST to build a web service using HTTP protocol.
+
 2) Explain the architectural style for the creation of a web API (client server communication, formatting language, etc.)
+
+
 
 3) Explain HTTP requests types when used with RESTful web (GET, PUT, POST, etc.)
 
+HTTP requests are commonly used for CRUD operation in RESTful web architecture:
+-POST for CREATE => to create resources
+-GET for READ => to get resources
+-POST for UPDATE => to update resources
+-DELETE for DELETE => to delete resources
+
 4) Explain the difference between stateless and stateful protocol. Which type of protocol is HTTP ?
+
+Stateless protocol do not store status or sessions information of the request
+Stateful protocol do store status or sessions information.
+HTTP is a stateless protocol, just a single request and response
 
 5) Explain the difference between a GET and a POST (like how are sent the parameters)
 
+GET is used to retrieve data from the server where parameters are inside the request url .
+POST is used to send data to the server where parameters are inside the request body.
+
 6) You can’t work out how to solve a coding problem. What do you do to find the answer?
+
+Check stackoverflow to lookup if anyone got the same problems as me and if there is a solution.
+If no answer found probably asking team.

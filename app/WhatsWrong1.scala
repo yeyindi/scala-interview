@@ -12,6 +12,8 @@ object WhatsWrong1 {
     override val city = "Paris"
   }
 
-  Supporter.city //What does this print ?
+  Supporter.city //What does this print ? It print "Paris"
   Supporter.support //What does this print and why ? How to fix it ?
+  // It print "Ici c'est null" because support was evaluated at compile time but city was not initialized.
+  // We just need to evaluate support on execution time with the key word lazy val
 }
