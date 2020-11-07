@@ -1,12 +1,17 @@
 
 1) Explain REST and RESTful
 
-REST (Representational State Transfer) is a model of architecture to create a web service or web API
+REST (Representational State Transfer) is an architecture model to create a web service or web API
 RESTful is an implementation of the model REST to build a web service using HTTP protocol.
 
 2) Explain the architectural style for the creation of a web API (client server communication, formatting language, etc.)
 
-
+There is a lot check to do for making a good web API, but the most important for me is follow these rules :
+-Use HTTP or HTTPS for client server communication
+-Make URI short, easy to understand and not expose language of the code for security.
+-Use access token to make sure client is allowed
+-Using simple formatting language such as JSON or XML
+-Handle errors correctly
 
 3) Explain HTTP requests types when used with RESTful web (GET, PUT, POST, etc.)
 
@@ -30,4 +35,4 @@ POST is used to send data to the server where parameters are inside the request 
 6) You can’t work out how to solve a coding problem. What do you do to find the answer?
 
 Check stackoverflow to lookup if anyone got the same problems as me and if there is a solution.
-If no answer found probably asking team.
+If no answer found probably asking team instead of wasting time.
